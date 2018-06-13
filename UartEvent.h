@@ -34,9 +34,9 @@
 #define UartEvent_h
 #ifdef __cplusplus
 
-#if(!defined(__MK20DX256__))
-    #error "Teensy 3.1 Only!!!!"
-#endif
+// #if(!defined(__MK20DX256__))
+//     #error "Teensy 3.1 Only!!!!"
+// #endif
 
 #include "Arduino.h"
 #include "DMAChannel.h"
